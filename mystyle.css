@@ -1,0 +1,141 @@
+body {
+  background-color: white;
+}
+h1 {
+  font-size: 100px;
+  font-weight: normal;
+  font-family: nightcore demo;
+  text-align: center;
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+h2 {
+
+  font-size: 70px;
+  font-weight: normal;
+  font-family: nightcore demo;
+  text-align: center;
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+#encrypt {
+  color: blue;
+  font-size: 60px;
+  font-family: nightcore demo;
+  text-align: center;
+}
+
+#decrypt {
+  color: red;
+  font-size: 60px;
+  font-family: nightcore demo;
+  text-align: center;
+}
+
+form {
+  color: black;
+  font-size: 25px;
+  font-family: bluetea;
+  text-align: left;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+
+}
+
+.right {
+  right: 0;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+@-webkit-keyframes colorchange {
+      0% {
+
+        color: blue;
+      }
+
+      10% {
+
+        color: #8e44ad;
+      }
+
+      20% {
+
+        color: #1abc9c;
+      }
+
+      30% {
+
+        color: #d35400;
+      }
+
+      40% {
+
+        color: blue;
+      }
+
+      50% {
+
+        color: #34495e;
+      }
+
+      60% {
+
+        color: blue;
+      }
+
+      70% {
+
+        color: #2980b9;
+      }
+      80% {
+
+        color: #f1c40f;
+      }
+
+      90% {
+
+        color: #2980b9;
+      }
+
+      100% {
+
+        color: pink;
+      }
+    }
+
